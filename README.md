@@ -4,7 +4,6 @@ Generative UI skill for [OpenCode](https://github.com/code-yeongyu/oh-my-opencod
 
 Inspired by [pi-generative-ui](https://github.com/Michaelliv/pi-generative-ui).
 
-<img width="680" alt="demo" src="https://github.com/user-attachments/assets/placeholder">
 
 ## What it does
 
