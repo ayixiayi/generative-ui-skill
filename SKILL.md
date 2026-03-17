@@ -69,14 +69,14 @@ description: >
 python3 '{SKILL_DIR}/scripts/render.py' \
   --title "Widget标题" \
   --type html \
-  --output /tmp/generative-ui/widget.html \
-  --content-file /tmp/generative-ui/content.html
+  --output ~/Documents/generative-ui/widget.html \
+  --content-file ~/Documents/generative-ui/content.html
 ```
 
 **工作流程**：
-1. 将生成的 widget 代码写入临时文件（如 `/tmp/generative-ui/content.html`）
-2. 运行 render.py，它会将代码注入完整 HTML 模板并保存
-3. 用 `dev-browser` skill 或 `open` 命令在浏览器中打开预览
+1. 将生成的 widget 代码写入文件（如 `~/Documents/generative-ui/content.html`）
+2. 运行 render.py，它会将代码注入完整 HTML 模板并保存到 `~/Documents/generative-ui/`
+3. 告知用户输出文件路径，用户可在浏览器中打开查看
 
 对于 SVG 类型，使用 `--type svg`，脚本会自动居中包裹。
 
