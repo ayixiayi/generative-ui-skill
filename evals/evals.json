@@ -1,0 +1,35 @@
+{
+  "skill_name": "generative-ui",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我做一个交互式的复利计算器，可以调整本金、利率和年数，实时显示收益曲线",
+      "expected_output": "一个带滑块控件的 HTML widget，包含 Chart.js 折线图，实时更新计算结果",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "画一个 microservices 架构图，包含 API Gateway、Auth Service、User Service、Order Service 和消息队列",
+      "expected_output": "一个 SVG 流程图/结构图，展示微服务之间的关系和数据流",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "visualize how attention mechanism works in transformers, make it interactive so I can click different tokens",
+      "expected_output": "一个交互式示意图，展示 attention 权重线从一个 token 扇形展开到其他 token，可点击切换 query token",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "做一个销售数据仪表盘，包含月收入、订单数、客单价的指标卡片和趋势图表",
+      "expected_output": "指标卡片网格 + Chart.js 趋势图，暗色主题仪表盘",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "create a geometric generative art pattern with rotating hexagons and circles",
+      "expected_output": "一个 SVG 几何艺术图案，使用旋转对称和丰富的颜色",
+      "files": []
+    }
+  ]
+}
